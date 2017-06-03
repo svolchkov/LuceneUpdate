@@ -1,0 +1,10 @@
+c:\users\sergeyv\documents\visual studio 2015\Projects\LuceneUpdate\LuceneUpdate\bin\Debug\LuceneUpdate.exe.config
+c:\users\sergeyv\documents\visual studio 2015\Projects\LuceneUpdate\LuceneUpdate\bin\Debug\LuceneUpdate.exe
+c:\users\sergeyv\documents\visual studio 2015\Projects\LuceneUpdate\LuceneUpdate\bin\Debug\LuceneUpdate.pdb
+c:\users\sergeyv\documents\visual studio 2015\Projects\LuceneUpdate\LuceneUpdate\bin\Debug\ICSharpCode.SharpZipLib.dll
+c:\users\sergeyv\documents\visual studio 2015\Projects\LuceneUpdate\LuceneUpdate\bin\Debug\Lucene.Net.dll
+c:\users\sergeyv\documents\visual studio 2015\Projects\LuceneUpdate\LuceneUpdate\bin\Debug\Lucene.Net.pdb
+c:\users\sergeyv\documents\visual studio 2015\Projects\LuceneUpdate\LuceneUpdate\bin\Debug\Lucene.Net.xml
+c:\users\sergeyv\documents\visual studio 2015\Projects\LuceneUpdate\LuceneUpdate\obj\Debug\LuceneUpdate.csprojResolveAssemblyReference.cache
+c:\users\sergeyv\documents\visual studio 2015\Projects\LuceneUpdate\LuceneUpdate\obj\Debug\LuceneUpdate.exe
+c:\users\sergeyv\documents\visual studio 2015\Projects\LuceneUpdate\LuceneUpdate\obj\Debug\LuceneUpdate.pdb
