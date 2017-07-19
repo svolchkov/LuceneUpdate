@@ -29,23 +29,23 @@ namespace LuceneUpdate
 
             indexUpdateTime = Directory.GetLastWriteTime(indexLocation);
 
-            //try
-            //{
-            //    using (var writer = new IndexWriter(FSDirectory.Open(INDEX_DIR), new CustomAnalyzer(), false, IndexWriter.MaxFieldLength.UNLIMITED))
-            //    {
-            //        Console.Out.WriteLine("Indexing to directory '" + INDEX_DIR + "'...");
-            //        IndexDirectory(writer, docDir);
-            //        Console.Out.WriteLine("Optimizing...");
-            //        writer.Optimize();
-            //        writer.Commit();
-            //    }
-            //    var end = DateTime.Now;
-            //    //Console.Out.WriteLine(end.Millisecond - start.Millisecond + " total milliseconds");
-            //}
-            //catch (IOException e)
-            //{
-            //    Console.Out.WriteLine(" caught a " + e.GetType() + "\n with message: " + e.Message);
-            //}
+            try
+            {
+                using (var writer = new IndexWriter(FSDirectory.Open(INDEX_DIR), new CustomAnalyzer(), false, IndexWriter.MaxFieldLength.UNLIMITED))
+                {
+                    Console.Out.WriteLine("Indexing to directory '" + INDEX_DIR + "'...");
+                    IndexDirectory(writer, docDir);
+                    Console.Out.WriteLine("Optimizing...");
+                    writer.Optimize();
+                    writer.Commit();
+                }
+                var end = DateTime.Now;
+                //Console.Out.WriteLine(end.Millisecond - start.Millisecond + " total milliseconds");
+            }
+            catch (IOException e)
+            {
+                Console.Out.WriteLine(" caught a " + e.GetType() + "\n with message: " + e.Message);
+            }
             deleteDocs();
         }
 
